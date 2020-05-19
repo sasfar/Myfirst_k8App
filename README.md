@@ -13,6 +13,7 @@ When you deploy your app as a “Pod” it gets a random local IP each time from
 This is where Ingress allows (external traffic to go inside the cluster, routing it to the correct service internally). So you can deploy as many apps as you want inside the cluster (but say only one process can gain access to the port 80 on the physical machine/cluster node). So you deploy an ingress Pod in this basic example, it’s an NGINX web server, that listen to the actual physical port 80 on the cluster nodes, and then configure it to route traffic the rest of apps
 
 ---
+# Video Demo
 If you would like to skip reading and like watching this in video, follow the below link for a vide demo [My First K8 Application ](https://youtu.be/SzT4l1PPV8Q)
 
 ---

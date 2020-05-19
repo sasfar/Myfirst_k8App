@@ -2,6 +2,9 @@
 
 Assuming that we have a fully functional K8 cluster running and accessible from the GUI, this is now time to build our first two tier application orchestrated through kubernetes. 
 
+My cluster is built leveraing Contrail as a CNI, one can read more about Contrail as a CNI for multiple node Kubernestes cluster.
+This [link](https://kubernetes.io/docs/concepts/cluster-administration/networking/#contrail--tungsten-fabric) has more information.
+
 I do have a seperate git link as to how one can access the dashboard, follow this [link](https://github.com/sasfar/kubernetes-Dashboard)
 
 
